@@ -30,13 +30,14 @@
     color: $color-primary;
     font-size: $font-sm;
     font-weight: 500;
+    transition: color 300ms;
 
     &:hover {
-      color: $blue;
+      color: $color-accent;
     }
 
     &.is-active {
-      color: $blue;
+      color: $color-accent;
 
       &::after {
         content: '';
@@ -45,7 +46,7 @@
         bottom: 0;
         height: 4px;
         width: 100%;
-        background-color: $blue;
+        background-color: $color-accent;
         border-radius: 8px;
       }
     }

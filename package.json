@@ -1,7 +1,7 @@
 {
   "name": "catalog-page",
   "version": "1.0.0",
-  "description": "Frontend practice with catalog page",
+  "title": "Frontend practice with catalog page",
   "scripts": {
     "init": "mate-scripts init",
     "start": "mate-scripts start",

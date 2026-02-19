@@ -2,7 +2,7 @@
   box-sizing: border-box;
   width: 100%;
   opacity: 1;
-  padding: 50 40px;
+  padding: $section_padding-Y $section_padding-X;
 
   &__list {
     list-style: none;
