@@ -11,6 +11,16 @@
   transform-origin: center;
   cursor: pointer;
 
+  &__title {
+    display: block;
+    font-weight: 500;
+    font-size: $font-sm;
+    line-height: 18px;
+    color: $color-primary;
+    margin-bottom: 4px;
+    transition: $transition-duration;
+  }
+
   &:hover {
     transform: scale(1.2);
 
@@ -25,16 +35,6 @@
     height: 134px;
     margin-inline: 3px;
     margin: 0 auto 40px;
-  }
-
-  &__title {
-    display: block;
-    font-weight: 500;
-    font-size: $font-sm;
-    line-height: 18px;
-    color: $color-primary;
-    margin-bottom: 4px;
-    transition: $transition-duration;
   }
 
   &__code {
