@@ -13,6 +13,10 @@
 
   &:hover {
     transform: scale(1.2);
+
+    .card__title {
+      color: $color-card-hover;
+    }
   }
 
   &__img {
@@ -30,12 +34,9 @@
     line-height: 18px;
     color: $color-primary;
     margin-bottom: 4px;
-    transition: color 300ms;
+    transition: $transition-duration;
   }
 
-  &__title:hover {
-    color: $color-card-hover;
-  }
   &__code {
     display: block;
     font-weight: 400;
@@ -84,8 +85,8 @@
     text-decoration: none;
     display: flex;
     transition:
-      background-color 300ms,
-      color 300ms;
+      background-color $transition-duration,
+      color $transition-duration;
 
     &:hover {
       background-color: $color-white;

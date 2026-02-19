@@ -30,7 +30,7 @@
     color: $color-primary;
     font-size: $font-sm;
     font-weight: 500;
-    transition: color 300ms;
+    transition: $transition-duration;
 
     &:hover {
       color: $color-accent;
